@@ -1,0 +1,16 @@
+.content {
+  @include outer-container;
+
+  .left, .right {
+    @include span-columns(6);
+  }
+}
+
+// The code for the object that has the texture.
+
+
+
+html {
+  @include texture(180deg, #f9f5ed, #f9f5ed, 67, 1);
+  // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal
+}

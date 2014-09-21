@@ -7,6 +7,15 @@ gem 'rails', '~> 4.1.6'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 
+# A simple and lightweight mixin library for Sass.
+gem 'bourbon', '~> 3.2.3'
+
+# Neat is an open source grid framework built on top of Bourbon.
+gem 'neat', '~> 1.5.1'
+
+# Base styles for Web design
+gem 'bitters', '~> 0.10.1'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '~> 2.5.3'
 
@@ -31,3 +40,4 @@ group :production do
   # Better web server for Heroku
   gem 'unicorn', '~> 4.8.3'
 end
+
