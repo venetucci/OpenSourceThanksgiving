@@ -70,4 +70,8 @@
   .octocat {
     opacity: 0.4;
   }
+
+  .octocat:hover {
+    @include transform(rotate(180deg));
+  }
 }
