@@ -1,0 +1,24 @@
+@mixin button($button-type) {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  border: solid 3px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-weight: 600;
+
+  &:hover {
+    color: white;
+  }
+
+  @if ($button-type == "primary") {
+    border-color: #ef7d4b;
+    background-color: white;
+    color: #ef7d4b;
+  }
+  &:hover {
+    background-color: #ef7d4b;
+  }
+}

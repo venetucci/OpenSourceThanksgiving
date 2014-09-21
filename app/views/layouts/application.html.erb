@@ -6,11 +6,8 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-  <div class="content">
     <%= yield %>
-  </div>
-
+    <%= render "layouts/footer" %>
 <%= javascript_include_tag 'application' %>
 
 </body>
