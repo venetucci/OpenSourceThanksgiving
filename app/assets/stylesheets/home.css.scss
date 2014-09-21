@@ -13,8 +13,10 @@ html {
 }
 
 .logo-lg {
-  @include span-columns(6);
-  @include shift(3);
+  @include media($medium-screen) {
+    @include span-columns(6);
+    @include shift(3);
+  }
 }
 
 .main-header {
@@ -26,8 +28,10 @@ html {
 .learn-more {
   @include button("primary");
   @include center-block;
-  @include span-columns(2);
-  @include shift(5);
+  @include media($medium-screen) {
+    @include span-columns(2);
+    @include shift(5);
+  }
   margin-top: $buffer-lg;
 }
 
