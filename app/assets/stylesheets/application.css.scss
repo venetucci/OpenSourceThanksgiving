@@ -1,5 +1,3 @@
-$base-background-color: red;
-
 // Bourbon CSS Framework
 @import "bourbon";
 @import "base/grid-settings";
@@ -10,4 +8,5 @@ $base-background-color: red;
 @import "refills/textures";
 
 // Custom CSS
+@import "variables";
 @import "home";

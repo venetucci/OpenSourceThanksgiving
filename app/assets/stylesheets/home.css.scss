@@ -14,3 +14,14 @@ html {
   @include texture(180deg, #f9f5ed, #f9f5ed, 67, 1);
   // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal
 }
+
+.logo-lg {
+  @include span-columns(6);
+  @include shift(3);
+}
+
+.main-header {
+  text-align: center;
+  padding-bottom: $buffer-lg;
+  padding-top: $buffer-lg;
+}
