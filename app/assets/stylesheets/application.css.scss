@@ -9,7 +9,11 @@
 
 // Custom CSS
 @import "variables";
+@import "modal";
 @import "buttons";
+@import "utilities";
+
+// Page styles for home and footer
 @import "home";
 @import "footer";
 

@@ -23,6 +23,18 @@ html {
   margin-top: $buffer-lg;
 }
 
-.enter-site {
+.learn-more {
   @include button("primary");
+  @include center-block;
+  @include span-columns(2);
+  @include shift(5);
+  margin-top: $buffer-lg;
+}
+
+.got-it {
+  @include button("primary");
+  @include center-block;
+  @include span-columns(4);
+  @include shift(4);
+  margin-top: $buffer-sm;
 }
