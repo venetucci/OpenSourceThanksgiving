@@ -69,7 +69,11 @@
 
   .octocat {
     opacity: 0.4;
-    @include animation(spinning-animation 1s infinite);
+
+    &:hover {
+      @include animation(spinning-animation 1s infinite linear);
+      @include transform(rotate(359deg));
+    }
   }
 
 }
